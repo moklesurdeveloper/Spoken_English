@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/tvEnglish"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Whow is coming"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+
+        <TextView
+            android:id="@+id/tvBangla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কে আসতেছে"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:gravity="center"
+            android:paddingBottom="5dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+
+</LinearLayout>
