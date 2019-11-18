@@ -41,7 +41,7 @@ public class DetailsAdapter extends RecyclerView.Adapter<DetailsAdapter.DetailsC
     {
 
         DetailsInfo getPosition = titleList.get(position);
-        holder.english.setText(getPosition.getBanglaText());
+        holder.english.setText(getPosition.getEnglishText());
         holder.banlga.setText(getPosition.getBanglaText());
 
 

@@ -46,13 +46,11 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeClass>
     @Override
     public HomeClass onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
     {
-
         View view = LayoutInflater.from(context).inflate(R.layout.recycler_item_home,parent,false);
 
         HomeClass hClass = new HomeClass(view);
         return hClass;
     }
-
     @Override
     public void onBindViewHolder(@NonNull final HomeClass holder, final int i)
     {
